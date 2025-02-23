@@ -16,9 +16,9 @@ composer require plakhin/php-package-skeleton
 ## Usage
 
 ```php
-use Plakhin\PPSkeleton\MyClass;
+use Plakhin\PPSkeleton\Skeleton;
 
-(new MyClass)->foo(); // string(3) "bar"
+(new Skeleton)->foo(); // string(3) "bar"
 ```
 
 ## Contributing

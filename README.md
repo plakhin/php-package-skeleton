@@ -1,4 +1,4 @@
-[![Tests Status](https://github.com/plakhin/php-package-skeleton/actions/workflows/main.yml/badge.svg)](https://github.com/plakhin/php-package-skeleton/actions)
+[![Tests](https://github.com/plakhin/php-package-skeleton/actions/workflows/tests.yml/badge.svg)](https://github.com/plakhin/php-package-skeleton/actions/workflows/tests.yml)
 
 # PHP Package Skeleton
 This repository provides a minimal PHP package skeleton with some batteries included.

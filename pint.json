@@ -2,6 +2,7 @@
     "exclude": [
         "tmp"
     ],
+    "cache-file": "tmp/pint.cache",
     "preset": "laravel",
     "rules": {
         "array_push": true,

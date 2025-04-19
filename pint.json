@@ -1,4 +1,7 @@
 {
+    "exclude": [
+        "tmp"
+    ],
     "preset": "laravel",
     "rules": {
         "array_push": true,

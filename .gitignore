@@ -12,4 +12,5 @@
 /coverage
 /phpstan.neon
 /phpunit.xml
+/tmp
 /vendor

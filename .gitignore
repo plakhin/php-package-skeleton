@@ -3,8 +3,6 @@
 /.php-cs-fixer.cache
 /.php-cs-fixer.php
 /.phpstorm.meta.php
-/.phpunit.cache
-/.phpunit.result.cache
 /.vscode
 /_ide_helper.php
 /_ide_helper_models.php

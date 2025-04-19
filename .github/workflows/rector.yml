@@ -19,5 +19,18 @@ jobs:
       uses: actions/checkout@v4
     - name: Prepare
       uses: ./.github/workflows/prepare
+    - name: Restore cache
+      uses: actions/cache/restore@v4
+      with:
+        path: tmp/rector
+        key: "rector-cache-${{ github.run_id }}"
+        restore-keys: |
+          rector-cache-
     - name: Run Rector Dry Run
       run: ./vendor/bin/rector --dry-run
+    - name: Save cache
+      uses: actions/cache/save@v4
+      if: ${{ !cancelled() }}
+      with:
+        path: tmp/rector
+        key: "rector-cache-${{ github.run_id }}"

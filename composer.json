@@ -1,6 +1,5 @@
 {
     "name": "plakhin/php-package-skeleton",
-    "version": "1.0.0",
     "description": "A skeleton repository for my packages",
     "keywords": ["php", "package", "skeleton"],
     "license": "MIT",

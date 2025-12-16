@@ -20,7 +20,7 @@ jobs:
     - name: Prepare
       uses: ./.github/workflows/prepare
     - name: Restore cache
-      uses: actions/cache/restore@v4
+      uses: actions/cache/restore@v5
       with:
         path: tmp/pint.cache
         key: "pint-cache-${{ github.run_id }}"
@@ -29,7 +29,7 @@ jobs:
     - name: Run Pint Test
       run: ./vendor/bin/pint --test --parallel
     - name: Save cache
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@v5
       if: ${{ !cancelled() }}
       with:
         path: tmp/pint.cache
